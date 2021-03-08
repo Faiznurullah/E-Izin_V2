@@ -69,7 +69,14 @@
                echo "</div>";
 
 
-             }else{
+             }elseif($pesan==="password"){
+
+               echo "<div class='col-md-10 col-sm-12 col-xs-12 ml-5'>";
+               echo "<div class='alert alert-primary mt-4 ml-5' role='alert'>";
+               echo "<p><center>Sukses Mengganti Password</center></p>";
+               echo   "</div>";
+               echo "</div>";
+
 
              }
 
